@@ -1,0 +1,124 @@
+Title:
+Author:
+Description:
+
+Q(1):Are you facing a criminal charge in Connecticut?
+A:Yes
+	Q(1.1):Do the criminal charges carry the possibility of incarceration?
+	A: Yes
+		Q(1.1.1):Are you being charged with a felony? <br><br>Examples of felonies include murder, rape, robbery, burglary, kidnapping, drug trafficking, and certain types of white-collar crimes. 
+		A:Yes
+			Q(1.1.1.1):How many persons are in your household?
+			A:1
+				Q(1.1.1.1.1):Is your yearly income below USD 29,160?
+				A:Yes
+					Q(1.1.1.1.1.1):You are likely eligible to receive an assigned counsel. <br><br>It's important to note that eligibility for assigned counsel is determined on a case-by-case basis, and the court will consider all relevant factors in making a determination. If you are unsure whether you qualify for an assigned counsel in Connecticut, it's best to speak with an experienced criminal defense attorney or a legal aid organization for guidance.
+				A:No 
+					Q(1.1.1.1.1.2):GOTO:1.2
+			A:2
+				Q(1.1.1.1.2):Is your yearly income below USD 39,440?
+				A:Yes
+					Q(1.1.1.1.2.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.1.2.2):GOTO:1.2
+			A:3
+				Q(1.1.1.1.3):Is your yearly income below USD 49,720?
+				A:Yes
+					Q(1.1.1.1.3.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.1.3.2):GOTO:1.2
+			A:4
+				Q(1.1.1.1.4):Is your yearly income below USD 60,000?
+				A:Yes
+					Q(1.1.1.1.4.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.1.4.2):GOTO:1.2
+			A:5
+				Q(1.1.1.1.5):Is your yearly income below USD 70,280?
+				A:Yes
+					Q(1.1.1.1.5.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.1.5.2):GOTO:1.2
+			A:6
+				Q(1.1.1.1.6):Is your yearly income below USD 80,560?
+				A:Yes
+					Q(1.1.1.1.6.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.1.6.2):GOTO:1.2
+			A:7
+				Q(1.1.1.1.7):Is your yearly income below USD 90,840?
+				A:Yes
+					Q(1.1.1.1.7.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.1.7.2):GOTO:1.2
+			A:8
+				Q(1.1.1.1.8):Is your yearly income below USD 101,120?
+				A:Yes
+					Q(1.1.1.1.8.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.1.8.2):GOTO:1.2
+		A:No
+			Q(1.1.1.2):How many persons are in your household?
+			A:1
+				Q(1.1.1.2.1):Is your yearly income below USD 18,225?
+				A:Yes
+					Q(1.1.1.2.1.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.2.1.2):GOTO:1.2
+			A:2
+				Q(1.1.1.2.10):Is your yearly income below USD 24,650?
+				A:Yes
+					Q(1.1.1.2.10.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.2.10.2):GOTO:1.2
+			A:3
+				Q(1.1.1.2.11):Is your yearly income below USD 31,075?
+				A:Yes
+					Q(1.1.1.2.11.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.2.11.2):GOTO:1.2
+			A:4
+				Q(1.1.1.2.12):Is your yearly income below USD 37,500?
+				A:Yes
+					Q(1.1.1.2.12.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.2.12.2):GOTO:1.2
+			A:5
+				Q(1.1.1.2.13):Is your yearly income below USD 43,925?
+				A:Yes
+					Q(1.1.1.2.13.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.2.13.2):GOTO:1.2
+			A:6
+				Q(1.1.1.2.14):Is your yearly income below USD 50,350?
+				A:Yes
+					Q(1.1.1.2.14.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.2.14.2):GOTO:1.2
+			A:7
+				Q(1.1.1.2.15):Is your yearly income below USD 56,775?
+				A:Yes
+					Q(1.1.1.2.15.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.2.15.2):GOTO:1.2
+			A:8
+				Q(1.1.1.2.16):Is your yearly income below USD 63,200?
+				A:Yes
+					Q(1.1.1.2.16.1):GOTO:1.1.1.1.1.1
+				A:No 
+					Q(1.1.1.2.16.2):GOTO:1.2
+	A: No
+		Q(1.1.2):GOTO:1.2
+	A: I don't know. Can you explain? 
+		Q(1.1.3): Many criminal charges carry the possibility of incarceration, including both misdemeanors and felonies. Here are some examples:
+<br> <br>Assault: Depending on the degree of assault and the circumstances of the offense, assault can be charged as a misdemeanor or felony, with potential jail or prison time ranging from a few months to several years.
+<br> <br>Theft and robbery: Depending on the value of the property stolen and the use of force or threats, theft and robbery can be charged as misdemeanors or felonies, with potential jail or prison time ranging from a few months to several years.
+<br> <br>Drug offenses: Depending on the type and amount of drugs involved, drug offenses can be charged as misdemeanors or felonies, with potential jail or prison time ranging from a few months to several years.
+<br> <br>DUI/DWI: Depending on the number of prior offenses and other aggravating factors, DUI/DWI can be charged as misdemeanors or felonies, with potential jail or prison time ranging from a few months to several years.
+<br><br>Considering this information, do the criminal charges you are facing carry the possibility of incarceration?
+		A:Yes
+			Q(1.1.3.1):GOTO:1.1.1
+		A:No 
+			Q(1.1.3.2):GOTO:1.2
+A:No
+	Q(1.2):Sorry, you don't seem to be eligible for a public defender. But be aware that you still have the right to represent yourself or to hire a private attorney.
